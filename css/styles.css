@@ -1,3 +1,40 @@
-.container {
-    background-color: azure;
+.jumbotron {
+    border-radius: 0px;
+    background-size: cover;
+    background-image: url("../img/pexels-photo-4473903.jpeg");
+    background-attachment: fixed;
+    margin-bottom: 0px;
+}
+.jumbotron >div {
+    color: black;
+    padding: 2rem;
+    background: #C33764;  /* fallback colour. Make sure this is just one solid colour. */
+    background: -webkit-linear-gradient(rgba(218, 219, 230, 0.8), rgba(231, 225, 227, 0.95));
+    background: linear-gradient(rgba(239, 239, 243, 0.8), rgba(231, 225, 227, 0.95)); /* The least supported option. */
+}
+.first{
+    justify-content: space-between;
+}
+.img-thumbnail{
+    border: none;
+}
+.left{
+    height: 300px;
+}
+.right{
+    background-image: url("../img/fresno_south-stadium.jpg");
+}
+
+.spacer {
+    text-align: center;
+    padding: 4rem;
+}
+.spacer >p{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.footer-row{
+    margin-top:2rem;
+    height: 100px;
+    background-color: rgb(240, 240, 240);
 }
