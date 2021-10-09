@@ -1,40 +1,37 @@
 .jumbotron {
-    border-radius: 0px;
-    background-size: cover;
-    background-image: url("../img/pexels-photo-4473903.jpeg");
+    background-image: url("../img/pexels-ketut-subiyanto-4473903.jpg");
     background-attachment: fixed;
-    margin-bottom: 0px;
+    background-size: cover;
 }
 .jumbotron >div {
     color: black;
-    padding: 2rem;
-    background: #C33764;  /* fallback colour. Make sure this is just one solid colour. */
-    background: -webkit-linear-gradient(rgba(218, 219, 230, 0.8), rgba(231, 225, 227, 0.95));
-    background: linear-gradient(rgba(239, 239, 243, 0.8), rgba(231, 225, 227, 0.95)); /* The least supported option. */
+    background-color: #1b75bb;
+    opacity: 0.8;
 }
-.first{
-    justify-content: space-between;
+.btn{
+    background-color: #0b4a7c;
 }
-.img-thumbnail{
-    border: none;
-}
-.left{
-    height: 300px;
-}
-.right{
-    background-image: url("../img/fresno_south-stadium.jpg");
+.spacer {
+    background-color:#202f4f;
 }
 
-.spacer {
-    text-align: center;
-    padding: 4rem;
+.location div{
+    background-repeat: no-repeat;
 }
-.spacer >p{
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
+
 .footer-row{
-    margin-top:2rem;
-    height: 100px;
-    background-color: rgb(240, 240, 240);
+    background-color:#202f4f;
+    height: 80px;
 }
+
+
+@media only screen and (min-width: 768px) {
+    .jumbotron {
+        height: 40rem;
+    }
+  }
+  @media only screen and (max-width: 992px) {
+    .speaker-card{
+        padding: 3rem 3rem 0 !important;
+    }
+  }
